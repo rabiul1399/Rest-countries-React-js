@@ -13,7 +13,7 @@ const Countries = () => {
     return (
      <div >
             <h2>API From Countries: {countries.length}</h2>
-       <div className='container'>
+       <div className='container row gap-4 m-auto py-4'>
           {  
            
            countries.map(country=><Country
