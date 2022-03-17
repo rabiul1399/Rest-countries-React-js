@@ -9,9 +9,10 @@ const Countries = () => {
         .then(res=>res.json())
         .then(data=>setCountries(data))
     },[]);
+    
     return (
      <div >
-            <h1>Hello From Countries: {countries.length}</h1>
+            <h2>API From Countries: {countries.length}</h2>
        <div className='container'>
           {  
            

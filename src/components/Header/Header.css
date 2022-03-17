@@ -1,0 +1,9 @@
+.navBar a{
+    text-decoration: none;
+    margin-left: 10px;
+    color:rgb(46, 46, 255);
+}
+
+.navBar a:hover{
+    color: rgb(201, 14, 145);
+}

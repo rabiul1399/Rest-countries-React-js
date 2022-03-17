@@ -4,7 +4,7 @@ const Country = (Props) => {
     // console.log(Props)
     const {name,area,region,flags} = Props.country
     return (
-        <div className='country'>
+        <div className='country bg-success text-black'>
   <div>
            <h3>Country: {name.common}</h3>
            <img src={flags.png} alt="" /></div>
