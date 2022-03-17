@@ -1,0 +1,13 @@
+.country{
+    color:rgb(79, 97, 201);
+    background-color: rgb(243, 234, 156);
+    margin: 20px;
+    box-shadow: 7px 6px 16px rgb(184, 180, 174);
+    border-radius: 15px;
+}
+.country  img{
+    width: 250px;
+       height: 150px;
+    margin: 10px;
+
+}
